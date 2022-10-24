@@ -201,3 +201,68 @@ div.h1-cont{
     margin-top: 5rem;
 
 }
+
+/* SECTION DESIGNIT */
+
+.contenitor-designit {
+    background-color: blue;
+    width: 100%;
+    height:30rem;
+}
+
+.box1-designit {
+    background-color: azure;
+    width:33.33%;
+    height: 100%;
+}
+
+.box2-designit {
+    background-color: lightcoral;
+    width:33.33%;
+    height: 100%;
+}
+
+.box3-designit {
+    background-color: blueviolet;    
+    width:33.33%;
+    height: 100%;
+}
+
+
+.square1 {
+    border: 1px solid black;
+    width: calc(100%/2);
+    height: calc(100%/2);
+}
+
+.square2 {
+    border: 1px solid black;
+    width: calc(100%/2);
+    height: calc(100%/2);
+}
+
+.square3 {
+    border: 1px solid black;
+    width: calc(100%/2);
+    height: calc(100%/2);
+    top: 0%;
+    right: 0%;
+}
+
+.square4 {
+    border: 1px solid black;
+    width: calc(100%/2);
+    height: calc(100%/2);
+    bottom: 0%;
+    right: 0%;
+}
+
+#h2-designit {
+    border: 1px solid black;
+    height: 40%;
+}
+
+#p-designit {
+    border: 1px solid black;
+    height: 60%;
+}
