@@ -266,3 +266,17 @@ div.h1-cont{
     border: 1px solid black;
     height: 60%;
 }
+
+.contenitor-free {
+    background-color: lightskyblue;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+     align-items: center;
+}
+
+#box-free {
+    background-color: white;
+    width: 70%;
+    height: 15rem;
+}
