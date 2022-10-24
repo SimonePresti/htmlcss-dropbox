@@ -53,7 +53,7 @@ section.container-h1 {
 
 div.h1-cont{
     background-color: aquamarine;
-    width: 70%;
+    width: 80%;
     height: 20rem;
 }
 
@@ -82,19 +82,43 @@ div.h1-cont{
 .containter-businessforyou {
     background-color: brown;
     width: 100%;
-    height: 70rem;
+    height:90rem;
     justify-content: center;
+    align-items: center;
 
 }
 
 .box-bfy {
     background-color: blueviolet;
-    width: 60%;
-    height: 60rem;
+    width: 70%;
+    height: 80rem;
 }
 
 .h2-bfy {
     background-color: antiquewhite;
     width: 100%;
     height: 5rem;
+}
+
+.column-box {
+    justify-content: space-between
+}
+
+
+.column {
+    background-color: white;
+    border: 1px solid black;
+    width:  calc(70%/3);
+    height: 50rem;
+    display: inline-block;
+    
+}
+
+
+.column-row {
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    margin-top: 5rem;
+    
 }
