@@ -267,6 +267,9 @@ div.h1-cont{
     height: 60%;
 }
 
+
+/* SECTION FREE-TRIAL */
+
 .contenitor-free {
     background-color: lightskyblue;
     width: 100%;
@@ -279,4 +282,34 @@ div.h1-cont{
     background-color: white;
     width: 70%;
     height: 15rem;
+}
+
+
+/* SECTION FREQUENT QUESTIONS */
+
+.contenitor-fq {
+    background-color: white;
+    width: 100%;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box-fq {
+    background-color: brown;
+    width: 70%;
+    height: 85%;
+}
+
+#fq-h2 {
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.fq-column-row {
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid black;
 }
