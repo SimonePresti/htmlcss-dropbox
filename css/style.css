@@ -77,11 +77,24 @@ div.h1-cont{
     height: 5rem;
 }
 
-/* INIZIO containter-businessforyou */
+/* INIZIO SECTION containter-businessforyou */
 
 .containter-businessforyou {
     background-color: brown;
     width: 100%;
-    height: 50rem;
+    height: 70rem;
+    justify-content: center;
 
+}
+
+.box-bfy {
+    background-color: blueviolet;
+    width: 60%;
+    height: 60rem;
+}
+
+.h2-bfy {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 5rem;
 }
