@@ -29,3 +29,37 @@ header {
     flex-basis: 50%;
     height: 5rem;
 }
+
+section.container-h1 {
+    background-color: blue;
+    width: 100%;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.h1-cont{
+    background-color: aquamarine;
+    width: 70%;
+    height: 20rem;
+}
+
+
+.h1-box {
+    background-color: aliceblue;
+    width: 100%;
+    height: 3rem;
+}
+
+.p-h1-left {
+    background-color: bisque;
+    width: 50%;
+    height: calc(100% - 3rem);
+
+}
+
+.jumbo {
+    width: 50%;
+    height: calc(100% - 3rem);
+}
