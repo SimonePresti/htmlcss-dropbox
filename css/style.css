@@ -83,41 +83,45 @@ section.container-h1 {
     background-color: #b4d0e7;
     width: 100%;
     height: 35rem;
-    justify-content: center;
-    align-items: center;
 
 }
 
-div.h1-cont{
+.box-big {
     width: 80%;
-    height: 20rem;
+    height:60%;
+    margin-left: 10rem;
+    margin-top: 3rem;
 }
-
 
 .h1-box {
-    width: 100%;
-
+    width: 80%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
 }
-
-.p-h1-left {
-    width: 30%;
-    height: calc(100% - 3rem);
-    margin-top: 40px;
-
-}
-
-
-
 
 
 .h1-box h1 {
     font-size: 2.8rem;
 }
 
+
+.p-h1-left {
+    width: 30%;
+    height: 100%;
+    margin-left: 2rem;
+}
+
+.p-h1-right {
+    width: 70%;
+    height: 100%;
+}
+
 #prova-gratuita {
     background-color: #0061ff;
     color: white;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 14rem;
     height: 1.5rem;
     text-align: center;
@@ -129,9 +133,15 @@ div.h1-cont{
 
 
 .fa-sharp {
-    margin-top: 35px;
+    margin-top: 55px;
     font-size: 50px;
     
+}
+
+#jumbo {
+    width: 50rem;
+    height: 30rem;
+    margin-left: 4rem;
 }
 
 
@@ -283,7 +293,6 @@ hr {
     font-size: large;
 
 }
-
 
 /* SECTION TWOBOYS */
 
@@ -486,18 +495,21 @@ hr {
     height: 10rem;
     margin-top: 2rem;
     margin-left: 2.3rem;
+    filter: invert(100%);
 }
 
 .photo2a {
     width: 10rem;
     margin-top: 6.3rem;
     margin-left: 2.5rem;
+    filter: invert(100%);
 }
 
 .photo3a {
     width: 10rem;
     margin-top: 3.4rem;
     margin-left: 3.3rem;
+    filter: invert(100%);
 }
 
 .photo4a {
@@ -505,6 +517,7 @@ hr {
     height: 6rem;
     margin-top: 4rem;
     margin-left: 4rem;
+    filter: invert(100%);
 }
 
 .photo1b {
@@ -512,6 +525,7 @@ hr {
     height: 9rem;
     margin-top: 3rem;
     margin-left: 3.3rem;
+    filter: invert(100%);
 
 }
 
@@ -520,6 +534,7 @@ hr {
     height: 9rem;
     margin-top: 3rem;
     margin-left: 3.3rem;
+    filter: invert(100%);
 }
 
 .photo3b {
@@ -527,6 +542,7 @@ hr {
     height: 9rem;
     margin-top: 3rem;
     margin-left: 3.3rem;
+    filter: invert(100%);
 }
 
 .photo4b {
@@ -534,6 +550,7 @@ hr {
     height: 9rem;
     margin-top: 3rem;
     margin-left: 3.3rem;
+    filter: invert(100%);
 }
 
 .designit {
