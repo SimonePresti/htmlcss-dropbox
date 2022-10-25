@@ -100,21 +100,18 @@ div.h1-cont{
 }
 
 .p-h1-left {
-    width: 35%;
+    width: 30%;
     height: calc(100% - 3rem);
     margin-top: 40px;
 
 }
 
 
-#jumbo {
-    width: 5rem;
-    height: 5rem;
-}
+
 
 
 .h1-box h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 #prova-gratuita {
@@ -132,31 +129,31 @@ div.h1-cont{
 
 
 .fa-sharp {
-    margin-top: 40px;
+    margin-top: 35px;
+    font-size: 50px;
     
 }
+
+
 
 /* INIZIO SECTION containter-businessforyou */
 
 .containter-businessforyou {
-    background-color: brown;
     width: 100%;
-    height:90rem;
+    height:110rem;
     justify-content: center;
     align-items: center;
 
 }
 
 .box-bfy {
-    background-color: blueviolet;
     width: 70%;
     height: 80rem;
 }
 
 .h2-bfy {
-    background-color: antiquewhite;
     width: 100%;
-    height: 5rem;
+    height: 7rem;
 }
 
 
@@ -168,16 +165,18 @@ div.h1-cont{
 
 
 .column {
-    background-color: white;
     border: 1px solid black;
     width:  calc(70%/3);
-    height: 50rem;
+    height: 60rem;
     display: inline-block;
-    
+    margin-top: 3rem;
+    line-height: 2.5rem;
+    font-size: 0.8rem    
 }
 
 
 .column-row {
+    border: 1px solid black;
     background-color: white;
     height: 20%;
     width: 100%;
@@ -185,36 +184,150 @@ div.h1-cont{
     
 }
 
+
+.h2-bfy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#radio2 {
+    margin-left: 5rem;
+}
+
+
+.top-col {
+    border-bottom: 1px solid black;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top1-col {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+ h3 {
+    font-size: 1.5rem;
+}
+
+.price {
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.month {
+    opacity: 60%;
+}
+
+.top2-col {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.top3-col {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.trial {
+    background-color: #0061ff;
+    color: white;
+    width: 12rem;
+    height: 2.8rem;
+    text-align: center;
+}
+
+hr {
+    width: 4rem;
+    margin: 1.5rem 1.5rem;
+}
+
+
+
+.top4-col {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.col-row-title {
+    border-bottom: 1px solid black;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-row-part1 {
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#contact-office {
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+#solution {
+    margin-left: 1.5rem;
+    opacity: 90%;
+}
+
+#tecnical-office {
+    background-color: #0061ff;
+    color: white;
+    margin-left: 50rem;
+    font-size: large;
+
+}
+
+
 /* SECTION TWOBOYS */
 
 
 .container-twoboys {
-    background-color: green;
     width: 100%;
-    height: 35rem;
+    height: 45rem;
     justify-content: center;
     align-items: center;
 }
 
 
 .box-twoboys {
-    background-color: white;
     flex-basis: 70%;
-    height: 25rem;
+    height: 35rem;
 }
 
 .twoboys-left {
-    background-color: aqua;
+    background-image: url(../img/partner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     flex-basis: 60%;
     height: 100%;
 
 }
 
 .twoboys-right {
-    background-color: red;
-    flex-basis: 40%;
+    flex-basis: 30%;
     height: 100%;
+    margin-top: 5rem;
+    margin-left: 4rem;
 
+}
+
+#find-partner {
+    margin-top: 2rem;
+}
+
+#partner {
+    border: 1px solid black;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 /* SECTION DROPBOX BUSINESS */
@@ -224,7 +337,6 @@ div.h1-cont{
     width: 100%;
     height:90rem;
     justify-content: center;
-    align-items: center;
 }
 
 .box-dropbox {
