@@ -333,29 +333,25 @@ hr {
 /* SECTION DROPBOX BUSINESS */
 
 .container-dropbox {
-    background-color: brown;
     width: 100%;
-    height:90rem;
+    height:95rem;
     justify-content: center;
 }
 
 .box-dropbox {
-    background-color: blueviolet;
     width: 70%;
     height: 85rem;
 }
 
 .h2-dropbox {
-    background-color: antiquewhite;
     width: 100%;
     height: 5rem;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
 }
 
 .column-dropbox {
-    background-color: white;
-    border: 1px solid black;
     width:  calc(70%/3);
-    height: 25rem;
     justify-content: space-between;
 
 }
@@ -366,11 +362,32 @@ hr {
 }
 
 #column-raw-dropbox  {
-    background-color: white;
     width: 100%;
     height: 16rem;
     margin-top: 5rem;
 
+}
+
+
+#business-feature {
+    width: 100%;
+    height: 50%;
+}
+
+.column-dropbox h3 {
+    font-size: 1.2rem;
+}
+
+.column-dropbox p {
+    text-align: left;
+    margin-top: 2rem;
+    font-size: smaller;
+}
+
+.column-row-dropbox h2 {
+    font-size: 3.8rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
 }
 
 /* SECTION DESIGNIT */
