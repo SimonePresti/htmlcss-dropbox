@@ -179,10 +179,10 @@ section.container-h1 {
 .column {
     border: 1px solid black;
     width:  calc(70%/3);
-    height: 60rem;
+    height: 50rem;
     display: inline-block;
     margin-top: 3rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-size: 0.8rem    
 }
 
@@ -235,8 +235,9 @@ section.container-h1 {
 }
 
 .top2-col {
-    margin-left: 1.5rem;
+    margin-left: 2.3rem;
     margin-top: 1.5rem;
+    text-indent: -7%;
 }
 
 .top3-col {
